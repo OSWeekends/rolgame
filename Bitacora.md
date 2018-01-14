@@ -13,7 +13,7 @@
   * Avatares de personajes
   * Fichas de personajes editables.
   * Sistema de tirada de dados
-
+  
 
 
 **2**: Explicada la dinámica básica de la plataforma del juego.
@@ -43,6 +43,7 @@
 **6**: Explicación del funcionamiento básico de la plataforma.
   * Diferentes secciones del menú de usuario.
   * Funcionamiento del Chat
+  * Poder marcar una zona del mapa con un flag al resto
   * Funcionamiento de las Macros
   * Existencia de Macros personalizables para cada participante.
   * Tipos de 'iluminación' a la que los personajes tienen acceso (conocimiento y visibilidad del entorno)

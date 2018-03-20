@@ -27,6 +27,8 @@ Nos mueve el aprendizaje y el apoyo a la comunidad!.
  - [ Theba Gomez (@KoolTheba)](https://github.com/integrante1) (Leader)
  - [ Jose ](https://github.com/Josheriff) (Leader - Fullstack)
  - [ Oneeyedman ](https://github.com/oneeyedman) (contributor - Designer)
+ - [ Jorge Baumann ](https://github.com/baumannzone) (contributor - Designer)
+ - [ Pablo Fernandez  ](https://github.com/PabloFMM) (contributor - Designer)
  - [ Vicky ](https://github.com/Vickysolo) (contributor - Frontend)
  - [ Elena ](https://github.com/ElenaMLopez) (contributor - Frontend)
  - [ Chechu ](https://github.com/Xexuline) (contributor - Fullstack)

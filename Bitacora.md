@@ -1,4 +1,4 @@
-#BITÁCORA DE 'ROL GAME PROJECT':
+# BITÁCORA DE 'ROL GAME PROJECT':
 
 ### Bitácora 27/03/2018. Videoconferencia.
 

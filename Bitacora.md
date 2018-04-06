@@ -1,5 +1,37 @@
 # BITÁCORA DE 'ROL GAME PROJECT':
 
+### Bitácora 05/04/2018. Videoconferencia.
+
+**1.	Investigar qué hay hecho. Qué podemos aprovechar y qué podemos mejorar:**
+a.	Descartamos revisar Vassal Engine : está hecho con java y lleva tiempo discontinuado, además no encaja con nuestro proyecto
+b.	Iremos apuntando las conclusiones de lo que vayamos revisando en el repo
+**2.	Hablar con usuarios:**
+a.	Pediremos feedback a los usuarios de las plataformas existentes y a jugadores de rol. Después de hablar con ellos y hacer un estudio de mercado veremos si nos interesa empezar una plataforma de 0 o colaborar con alguna existente.
+b.	Para hablar con jugadores iremos a tiendas tipo GeneraciónX. Nos dividiremos en grupos de dos.
+**3.	Preguntas:**
+a.	Las preguntas que hagamos deben ser abiertas, hay que dar conversación y fijarnos bien en qué nos dicen los usuarios y sobre todo en cómo lo dicen.
+b.	Lista de preguntas:
+i.	Cómo organizas las partidas?
+ii.	A qué sueles jugar?
+iii.	Has jugado en Remoto?
+iv.	Campaña rápida o por capítulos¿
+v.	Ambientas las campañas?
+vi.	Por qué juegas a rol?
+vii.	Pedir datos
+c.	Siempre que nos den pie, preguntar por qué. Si nos dicen que no preguntar por qué.
+d.	Sacar el perfil persona: Edad, metas, como son…
+**4.	Organizar partida online:**
+a.	Ya hay una partida organizada. En cuanto tengamos fecha vemos .
+**5.	Plazos:**
+a.	Dejamos la semana del 9-15 para que la gente que se apunten lso que quieran hacer entrevistas y organizarnos
+b.	La semana del  16-22 haremos las entrevistas
+**6.	Próximas reuniones:**
+a.	Sábado 7 en OSW
+b.	Jueves 12 en Campus
+**7.	OSW 7/04:**
+a.	Chechu y Pablo hablarán del Guild 
+
+
 ### Bitácora 27/03/2018. Videoconferencia.
 
 **1. Antes de empezar con el desarrollo:**

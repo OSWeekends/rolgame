@@ -3,17 +3,17 @@
 ### Bitácora 05/04/2018. Videoconferencia.
 
 **1.	Investigar qué hay hecho. Qué podemos aprovechar y qué podemos mejorar:**
-a.	Descartamos revisar Vassal Engine : está hecho con java y lleva tiempo discontinuado, además no encaja con nuestro proyecto
-b.	Iremos apuntando las conclusiones de lo que vayamos revisando en el repo
+*	Descartamos revisar Vassal Engine : está hecho con java y lleva tiempo discontinuado, además no encaja con nuestro proyecto
+*	Iremos apuntando las conclusiones de lo que vayamos revisando en el repo
 **2.	Hablar con usuarios:**
-a.	Pediremos feedback a los usuarios de las plataformas existentes y a jugadores de rol. Después de hablar con ellos y hacer un estudio de mercado veremos si nos interesa empezar una plataforma de 0 o colaborar con alguna existente.
-b.	Para hablar con jugadores iremos a tiendas tipo GeneraciónX. Nos dividiremos en grupos de dos.
+*Pediremos feedback a los usuarios de las plataformas existentes y a jugadores de rol. Después de hablar con ellos y hacer un estudio de mercado veremos si nos interesa empezar una plataforma de 0 o colaborar con alguna existente.
+*	Para hablar con jugadores iremos a tiendas tipo GeneraciónX. Nos dividiremos en grupos de dos.
 **3.	Preguntas:**
-a.	Las preguntas que hagamos deben ser abiertas, hay que dar conversación y fijarnos bien en qué nos dicen los usuarios y sobre todo en cómo lo dicen.
-b.	Lista de preguntas:
-i.	Cómo organizas las partidas?
-ii.	A qué sueles jugar?
-iii.	Has jugado en Remoto?
+*	Las preguntas que hagamos deben ser abiertas, hay que dar conversación y fijarnos bien en qué nos dicen los usuarios y sobre todo en cómo lo dicen.
+*	Lista de preguntas:
+*	Cómo organizas las partidas?
+*	A qué sueles jugar?
+*.	Has jugado en Remoto?
 iv.	Campaña rápida o por capítulos¿
 v.	Ambientas las campañas?
 vi.	Por qué juegas a rol?

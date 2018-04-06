@@ -1,6 +1,6 @@
 # BITÁCORA DE 'ROL GAME PROJECT':
 
-### Bitácora 05/04/2018. Videoconferencia.
+### Bitácora 05/04/2018. Reunión presencial.
 
 **1.	Investigar qué hay hecho. Qué podemos aprovechar y qué podemos mejorar:**
 *	Descartamos revisar Vassal Engine : está hecho con java y lleva tiempo discontinuado, además no encaja con nuestro proyecto

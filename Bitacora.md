@@ -5,10 +5,10 @@
 **1.	Investigar qué hay hecho. Qué podemos aprovechar y qué podemos mejorar:**
 *	Descartamos revisar Vassal Engine : está hecho con java y lleva tiempo discontinuado, además no encaja con nuestro proyecto
 *	Iremos apuntando las conclusiones de lo que vayamos revisando en el repo
-**2.	Hablar con usuarios:**
+* **2.	Hablar con usuarios:**
 *Pediremos feedback a los usuarios de las plataformas existentes y a jugadores de rol. Después de hablar con ellos y hacer un estudio de mercado veremos si nos interesa empezar una plataforma de 0 o colaborar con alguna existente.
 *	Para hablar con jugadores iremos a tiendas tipo GeneraciónX. Nos dividiremos en grupos de dos.
-**3.	Preguntas:**
+* **3.	Preguntas:**
 *	Las preguntas que hagamos deben ser abiertas, hay que dar conversación y fijarnos bien en qué nos dicen los usuarios y sobre todo en cómo lo dicen.
 *	Lista de preguntas:
 >>*	Cómo organizas las partidas?
@@ -20,15 +20,15 @@
 >>*	Pedir datos
 *	Siempre que nos den pie, preguntar por qué. Si nos dicen que no preguntar por qué.
 *	Sacar el perfil persona: Edad, metas, como son…
-**4.	Organizar partida online:**
+* **4.	Organizar partida online:**
 *	Ya hay una partida organizada. En cuanto tengamos fecha vemos .
-**5.	Plazos:**
+* **5.	Plazos:**
 *	Dejamos la semana del 9-15 para que la gente que se apunten lso que quieran hacer entrevistas y organizarnos
 *	La semana del  16-22 haremos las entrevistas
-**6.	Próximas reuniones:**
+* **6.	Próximas reuniones:**
 *	Sábado 7 en OSW
 *	Jueves 12 en Campus
-**7.	OSW 7/04:**
+* **7.	OSW 7/04:**
 *	Chechu y Pablo hablarán del Guild 
 
 

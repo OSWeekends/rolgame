@@ -1,5 +1,23 @@
 # BITÁCORA DE 'ROL GAME PROJECT':
 
+### Bitácora 12/04/2018. Reunión presencial.
+
+**1. Preguntas:**
+>>* ¿Juegas a rol? En caso positivo:
+>>* ¿Juegas online? ¿Cómo? Aplicación, videoconferencia, he desarrollado mi propia aplicación...
+>>* ¿Eres master o eres jugador?
+>>* ¿Te gustaría poder publicar tus partidas?
+>>* ¿Creas tus propios juegos?
+>>* ¿Te gustaría que tuvieras la posibilidad de unirte a otras partidas abiertas?
+>>* ¿Sueles jugar campañas cortas o largas?
+>>* ¿Te gustaría guardar tus partidas y continuar más adelante?
+>>* Partiendo de las plataformas que conoces, ¿qué añadiras? ¿qué eliminarías? ¿qué mejorarías?
+
+Si alguien usa una plataforma específica, podramos pasarle una encuesta propia para ver cómo mejorar esa plataforma en concreto.
+
+Podemos usar Typeform y mailchimp, a no ser que encontremos una opción open source (tenemos que investigar si existe esto y si se adapta a lo que necesitamos).
+
+
 ### Bitácora 05/04/2018. Reunión presencial.
 
 **1.	Investigar qué hay hecho. Qué podemos aprovechar y qué podemos mejorar:**

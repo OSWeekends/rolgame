@@ -1,5 +1,16 @@
 # BITÁCORA DE 'ROL GAME PROJECT':
 
+### Bitácora 19/04/2018. Reunión presencial.
+
+**1. Conclusiones de la entrevista presencial**
+
+Se hizo una entrevista el miercoles (grabación disponible en Google Drive) a un master que aportó sus opiniones. Entre ellas, la más destacada es que uno de los grandes problemas que tienen es la gestión de partidas, con lo cual a priori se nos abre una nueva vía distinta de la que habíamos pensando originalmente, que tiene más que ver con el desarrollo de una plataforma de gestión específica que sustituya a otras herramientas más generales pero menos vistosas como Excel.
+
+**2. Nuevos planteamientos**
+
+Reunir a varios masters para hacer una "tertulia de masters" que podamos grabar para verla o escucharla a posteriori y extraer conclusiones, preferentemente de una forma natural, sin guión, o sin un guión demasiado estricto. Pero en esencia, vamos a continuar con las entrevistas por ahora.
+
+
 ### Bitácora 12/04/2018. Reunión presencial.
 
 **1. Preguntas:**

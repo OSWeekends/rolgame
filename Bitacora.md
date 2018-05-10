@@ -1,5 +1,20 @@
 # BITÁCORA DE 'ROL GAME PROJECT':
 
+### Bitácora 10/05/2018. Reunión presencial.
+**Conclusiones de la segunda entrevista**
+El entrevistado lo que más desea en el universo universal es que la aplicación tenga dados (ya lo tenemos hecho).
+
+**TEMAS TRATADOS**
+ - Texto legal: Es importante dejar claro que los términos de uso de la información recabada. También que el entrevistado los conozca ANTES de empezar a realizar la entrevista. Dejar claro que sus datos no serán cedidos a terceros y darle la opción de guardar su email para ponernos en contacto y probar la APP en fase alfa.
+
+ - Preguntas básicas para entrevista de definición de producto (aclaraciones a Elena)
+ - Asignada Issue a @Vickysolo para hacer limpieza dle kamban del proyecto.
+ 
+
+
+**NOTAS**
+Colgar los videos y sus links en sitios donde no se pierdan en algún colector de basura. Como por ejemplo poner los videos en el drive de la cuenta común.
+
 ### Bitácora 03/05/2018. Reunión presencial.
 
 **Realización de entrevistas**

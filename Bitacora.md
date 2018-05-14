@@ -1,10 +1,49 @@
 # BITÁCORA DE 'ROL GAME PROJECT':
 
+### Bitácora 10/05/2018. Reunión presencial.
+**Conclusiones de la segunda entrevista**
+El entrevistado lo que más desea en el universo universal es que la aplicación tenga dados (ya lo tenemos hecho).
+
+**TEMAS TRATADOS**
+ - Texto legal: Es importante dejar claro que los términos de uso de la información recabada. También que el entrevistado los conozca ANTES de empezar a realizar la entrevista. Dejar claro que sus datos no serán cedidos a terceros y darle la opción de guardar su email para ponernos en contacto y probar la APP en fase alfa.
+
+ - Preguntas básicas para entrevista de definición de producto (aclaraciones a Elena)
+ - Asignada Issue a @Vickysolo para hacer limpieza dle kamban del proyecto.
+ 
+
+
+**NOTAS**
+Colgar los videos y sus links en sitios donde no se pierdan en algún colector de basura. Como por ejemplo poner los videos en el drive de la cuenta común.
+
+### Bitácora 03/05/2018. Reunión presencial.
+
+**Realización de entrevistas**
+
+-Determinar fechas para realizar entrevistas. 
+
+-Se realiza una cuenta de gmail para hacer un calendar donde anotaremos las fechas de las entrevistas, las fechas de reuniones, en su drive se guardarán las entrevistas y los videos, desde ahí se enviarań los correos y los formularios para rellenar.
+
+- Respecto a los usuarios del grupo de facebook "Los Viejos Roleros Nunca Mueren" se repartirán las videoconferencias entre @elenamlopez y @PabloFMM
+
+- Las plataformas que se pueden hacer las vidoconferencias son por ejemplo [LOOWID](https://www.loowid.com/#!/) que es (Open source) o [zoom.us](https://zoom.us/)
+
+**Otras cuestiones**
+
+- @PabloFMM se encargará de organizar las hojas de excel para administrar los vínculos y tareas organizativas
+
+- Elena realizará un script para realizar tiradas de dados y asignar tareas a miembros del equipo.
+
+
+
+**Nuevas perspectivas para la APP**
+- 
+
 ### Bitácora 19/04/2018. Reunión presencial.
 
 **1. Conclusiones de la entrevista presencial**
 
 Se hizo una entrevista el miercoles (grabación disponible en Google Drive) a un master que aportó sus opiniones. Entre ellas, la más destacada es que uno de los grandes problemas que tienen es la gestión de partidas, con lo cual a priori se nos abre una nueva vía distinta de la que habíamos pensando originalmente, que tiene más que ver con el desarrollo de una plataforma de gestión específica que sustituya a otras herramientas más generales pero menos vistosas como Excel.
+
 
 **2. Nuevos planteamientos**
 

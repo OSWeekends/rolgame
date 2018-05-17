@@ -1,6 +1,7 @@
 # BITÁCORA DE 'ROL GAME PROJECT':
 ### Bitácora 17/05/2018. Reunión presencial.
 **Temas tratados:**
+
 Resumen y comunicacin del documento de la videoconferencia de Elena.
 
 Asignación de realizar el resumen de los videos de la entrevista de Teresa, Chechu y MrCodeDEv.

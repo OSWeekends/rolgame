@@ -1,4 +1,19 @@
 # BITÁCORA DE 'ROL GAME PROJECT':
+### Bitácora 10/2018
+** Temas tratados **
+#### Versión 0.1
+Vamos a hacer una cosa muy pequeña para asentarnos, tantear y empezar a ver como nos manejamos.
+En esta primer MVP vamos a crear un modelo muy muy básico:
+￼-	Mapa. Compuesto por un background donde el master carga su mapa y por encima una retícula hexagonal
+￼-	Un botón para tirar dados
+￼-	8 jugadores que se mueven por las casillas
+Los jugadores se reunen por un cliente de voz que pueda compartir la pantalla y así el master enseña la web donde esté el juego
+**Demo en noviembre**
+Cosas que necesitamos:
+–	La vista del mapa
+–	La documentación de uso,  para que el master se baje el repo, meta el mapa en la ruta y la nomenclatura deseadas y ya pueda ejecutar la aplicación por ruta absoluta
+- Se valora crear una malla hexagonal con svg para las casillas del mapa y aplicar un fondo sobre este espacio que sería
+–	La documentación de uso,  para que el master se baje el repo, meta el mapa en la ruta y la nomenclatura deseadas y ya pueda ejecutar la aplicación por ruta absoluta el mapa.
 ### Bitácora 17/05/2018. Reunión presencial.
 **Temas tratados:**
 

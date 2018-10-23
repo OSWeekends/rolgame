@@ -1,3 +1,3 @@
 Esto es un hexágono en SVG
 
-![Hexágono](./hexagon.svg)
+<img src="./hexagon.svg">

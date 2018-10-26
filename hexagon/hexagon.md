@@ -18,11 +18,15 @@ Para obtener las coordenadas de los vertices, tenemos que tener en cuenta dos co
 
 Sin embargo, para obtener un hexágono regular tenemos que partir de un círculo en el cual dibujaremos los vértices equiespaciados por 60º, que es la sexta parte de los 360º de la circunferencia. Rotaremos 30º nuestro polígono para que haya vértices arriba y abajo, y lados a izquierda y derecha. Con lo cual, y en coordenadas polares, podemos usar la siguiente ecuación para obtener las coordenadas de cada vértice:
 
-$$ρ_z(R,θ)=(100, 60z - 30)$$
+```
+ρ<sub>z</sub>(R,θ)=(100, 60z - 30)
+```
 
 Y convertimos de polares a cartesianas mediante la fórmula:
 
-$v(x,y)=(Rcos(θ),Rsen(θ))$
+```
+v<sub>z</sub>(x,y)=(Rcos(θ<sub>z</sub>),Rsen(θ<sub>z</sub>))
+```
 
 Es decir:
 

@@ -20,7 +20,7 @@
                 //hexagonCenterX es la coordenada X del centro del hexagono
                 //hexagonCenterY es la coordenada Y del centro del hexagono
                 //circumradius es la distancia de centro a cada vertice
-                function createHexagon (hexagonCenterX, hexagonCenterX, circumradius) {
+                function createHexagon (hexagonCenterX, hexagonCenterY, circumradius) {
                     //base de algoritmo es este hexagono en D3 de http://jsfiddle.net/LJuRp/
                     //refactorizado para poder seguir las explicaciones de
                     //https://www.redblobgames.com/grids/hexagons/ seccion "Geometry"
@@ -35,10 +35,6 @@
                     //Este paso intermedio es innecesario pero está incluido para que se entienda mejor
                     var halfHexagonWidth = hexagonWidth / 2;
                     var halfHexagonHeight = hexagonHeight / 2;
-
-                    //coordenadas x, y del centro del hexagono
-                    var hexagonCenterX = 100;
-                    var hexagonCenterY = 100;
 
                     var hexagonVertex = [
                                         [halfHexagonWidth + hexagonCenterX, 0 + hexagonCenterY], 

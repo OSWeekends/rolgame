@@ -9,33 +9,60 @@
 		</style>
 	</head>
 	<body>
-        <script src="https://d3js.org/d3.v5.min.js"></script>
-        
-        //he copiado este hexagono en D3 de http://jsfiddle.net/LJuRp/
-        //paso a cambiar nombres de variables para que se entienda 
-        //que es lo que hace
-		<script>
-            var _s32 = (Math.sqrt(3)/2);
-            var A = 25;
-            var xDiff = 100;
-            var yDiff = 100;
+            <script src="https://d3js.org/d3.v5.min.js"></script>
 
-            var pointData = [[A+xDiff, 0+yDiff], 
-            [A/2+xDiff, A*_s32+yDiff], 
-            [-A/2+xDiff, A*_s32+yDiff], 
-            [-A+xDiff, 0+yDiff],    
-            [-A/2+xDiff, -A*_s32+yDiff], 
-            [A/2+xDiff, -A*_s32+yDiff]];
+            <script>
+                //colores
+                var citrus = "#FFB025"  //relleno
+                var ultraviolet = "#5F4B8B" //borde
 
-            var svgContainer = d3.select("body") //create container
-                .append("svg")
-                .attr("width", 1000)
-                .attr("height", 1000);
+                //Argumentos:
+                //hexagonCenterX es la coordenada X del centro del hexagono
+                //hexagonCenterY es la coordenada Y del centro del hexagono
+                //circumradius es la distancia de centro a cada vertice
+                function createHexagon (hexagonCenterX, hexagonCenterX, circumradius) {
+                    //base de algoritmo es este hexagono en D3 de http://jsfiddle.net/LJuRp/
+                    //refactorizado para poder seguir las explicaciones de
+                    //https://www.redblobgames.com/grids/hexagons/ seccion "Geometry"
 
-            var enterElements = svgContainer.selectAll("path.area") //draw elements
-                .data([pointData]).enter().append("path")
-                .style("fill", "#ff0000")
-                .attr("d", d3.line());
-		</script>
+                    //TODO implementacion de borde plano o puntiagudo: de momento borde plano
+
+                    //Ver formulas en https://www.redblobgames.com/grids/hexagons/ seccion "Geometry"
+                    var hexagonWidth = circumradius * 2;    
+                    var hexagonHeight = circumradius * Math.sqrt(3);
+
+                    //Calculo de la mitad de la anchura y altura
+                    //Este paso intermedio es innecesario pero está incluido para que se entienda mejor
+                    var halfHexagonWidth = hexagonWidth / 2;
+                    var halfHexagonHeight = hexagonHeight / 2;
+
+                    //coordenadas x, y del centro del hexagono
+                    var hexagonCenterX = 100;
+                    var hexagonCenterY = 100;
+
+                    var hexagonVertex = [
+                                        [halfHexagonWidth + hexagonCenterX, 0 + hexagonCenterY], 
+                                        [halfHexagonWidth/2 + hexagonCenterX, halfHexagonHeight + hexagonCenterY], 
+                                        [-halfHexagonWidth/2 + hexagonCenterX, halfHexagonHeight + hexagonCenterY], 
+                                        [-halfHexagonWidth + hexagonCenterX, 0 + hexagonCenterY],    
+                                        [-halfHexagonWidth/2 + hexagonCenterX, -halfHexagonHeight + hexagonCenterY], 
+                                        [halfHexagonWidth/2 + hexagonCenterX, -halfHexagonHeight + hexagonCenterY],
+                                        [halfHexagonWidth + hexagonCenterX, 0 + hexagonCenterY]    //el ultimo vertice repite el primero para cerrar el poligono
+                                        ];
+
+                    var svgContainer = d3.select("body") //create container
+                        .append("svg")
+                        .attr("width", 1000)
+                        .attr("height", 1000);
+
+                    var enterElements = svgContainer.selectAll("path.area") //draw elements
+                        .data([hexagonVertex]).enter().append("path")
+                        .style("fill", citrus)
+                        .style("stroke", ultraviolet)
+                        .attr("d", d3.line());
+                }
+
+                createHexagon(100, 100, 50);
+            </script>
 	</body>
 </html>

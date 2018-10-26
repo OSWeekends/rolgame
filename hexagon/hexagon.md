@@ -1,4 +1,6 @@
-# Dibujar un hexágono en SVG
+# Malla hexagonal en SVG
+
+## Un sólo hexágono
 
 Un hexágono regular es un polígono de seis lados cuyos vértices son equidistantes entre sí, y equidistantes respecto al centro del círculo en en cual se inscribe.
 
@@ -53,3 +55,5 @@ Entonces, el SVG que generará nuestro hexágono será el siguiente:
 ```
 
 En los SVGs incrustados en este documento, hemos optado por agrupar todo bajo una tag `<g>` y aplicar la translación al grupo completo, evitando tener que hacerlo con cada elemento individual y obteniendo el mismo resultado.
+
+## Malla hexagonal

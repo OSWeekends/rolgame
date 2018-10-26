@@ -18,4 +18,11 @@
 
       <text x="25" y="15" fill="white">30º</text>
     </g>
+    <g transform="translate(50 50)">
+      <line x1="0" y1="0" x2="0" y2="180" stroke="rgb(0,255,0)" stroke-width="2"/>
+      <line x1="0" y1="0" x2="180" y2="0" stroke="rgb(0,255,0)" stroke-width="2"/>
+    
+      <text x="0" y="190" fill="rgb(0,255,0)">x</text>
+      <text x="190" y="0" fill="rgb(0,255,0)">y</text>
+    </g>
   </svg>

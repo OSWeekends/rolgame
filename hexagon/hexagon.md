@@ -16,27 +16,27 @@ Para obtener las coordenadas de los vertices, tenemos que tener en cuenta dos co
 
 ![Hexagon](./hexagon1.svg)
 
-Sin embargo, para obtener un hexágono regular tenemos que partir de un círculo en el cual dibujaremos los vértices equiespaciados por 60º, que es la sexta parte de los 360º de la circunferencia. Rotaremos 30º nuestro polígono para que haya vértices arriba y abajo, y lados a izquierda y derecha. Con lo cual, y en coordenadas polares, podemos usar la siguiente ecuación para obtener las coordenadas de cada vértice:
+Sin embargo, para obtener un hexágono regular tenemos que partir de un círculo en el cual dibujaremos los vértices equiespaciados por 60º, que es la sexta parte de los 360º de la circunferencia. Rotaremos 30º nuestro polígono para que haya vértices arriba y abajo, y lados a izquierda y derecha. Con lo cual podemos usar la siguiente ecuación para obtener las coordenadas polares de cada vértice:
 
-ρ<sub>z</sub>(R,θ)=(100, 60z - 30)
+ρ<sub>z</sub>(R,θ)=(R, 60z - 30)
 
 Y convertimos de polares a cartesianas mediante la fórmula:
 
-v<sub>z</sub>(x,y)=(Rcos(θ<sub>z</sub>),Rsen(θ<sub>z</sub>))
+v<sub>z</sub>(x,y) = (Rcos(θ<sub>z</sub>), Rsen(θ<sub>z</sub>))
 
-Es decir:
+Es decir, estableciendo un radio de 100 px:
 
-$ρ_1(R,θ)=(100, 30)=>v_1(x,y)=(86.6, 50)$
+ρ<sub>1</sub>(R,θ) = (100, 30) => v<sub>1</sub>(x,y) = (86.6, 50)
 
-$ρ_2(R,θ)=(100, 90)=>v_2(x,y)=(0, 100)$
+ρ<sub>2</sub>(R,θ) = (100, 90) => v<sub>2</sub>(x,y) = (0, 100)
 
-$ρ_3(R,θ)=(100, 150)=>v_3(x,y)=(-86.6, 50)$
+ρ<sub>3</sub>(R,θ) = (100, 150) => v<sub>3</sub>(x,y) = (-86.6, 50)
 
-$ρ_4(R,θ)=(100, 210)=>v_4(x,y)=(-86.6, -50)$
+ρ<sub>4</sub>(R,θ) = (100, 210) => v<sub>4</sub>(x,y) = (-86.6, -50)
 
-$ρ_5(R,θ)=(100, 270)=>v_5(x,y)=(0, -100)$
+ρ<sub>5</sub>(R,θ) = (100, 270) => v<sub>5</sub>(x,y) = (0, -100)
 
-$ρ_6(R,θ)=(100, 330)=>v_6(x,y)=(86.6, -50)$
+ρ<sub>6</sub>(R,θ) = (100, 330) => v<sub>6</sub>(x,y) = (86.6, -50)
 
 Ya tenemos todas las coordenadas de los vértices, suponiendo que el centro del hexágono es nuestro origen de coordenadas.
 

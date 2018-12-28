@@ -1,19 +1,38 @@
 # rolgame
 
-## Español
+Proyecto que pretende crear una herramienta para jugar al rol.
 
-Proyecto que pretende crear una herramienta para que varias personas puedan jugar al Rol desde sus casas
-como si estuvieran todas en la misma habitación.
+## Equipo
+- [ Jose ](https://github.com/Josheriff) (Leader)
+- [ Luis ](https://github.com/luisddm) (contributor)
+- [ Teresa ](https://github.com/teresamadruga) (contributor)
 
-El avance del proyecto se discutirá en las distintas reuniones de Open Source Weekends, o si es necesaria una actuación "urgente" se combocará reunion extraordinaria a traves del canal de slack.
+Para participar, entrar al slack de Open Source Weekends o asistir a las reuniones mensuales. El avance del proyecto se discutirá en ambos medios entre todos los interesados y con la intención principal de aprender nuevas tecnologías o maneras de hacer las cosas. Avanzar a buen ritmo y obtener un producto usable son objetivos deseables pero secundarios.
 
-### A tener en cuenta:
+### Necesitamos
 
-- Se ha decidido utilizar en cada funcionalidad la tecnología mínima necesaria para evitar sobre complicaciones.
-- Si en algún momento se llega a un punto en el que la elección de estas tecnologías limita el avance, se tomará una decisión (reescribir parte o todo o hacer un workaround).
-- Todos estamos de acuerdo que lo que cuesta es escribirlo la primera vez, reahacer algo de ser necesario no es tán complejo y no tomaría tanto tiempo.
-- Esto se hace para poder avanzar a un ritmo normal y no dejarnos cegar por el brillo de tecnologías sexis.
+Cualquier tipo de perfil es bienvenido.
 
-### Para participar
+- Frontenders: desarrollo de las pantallas e interacciones
+- Backenders: desarrollo de la persistencia 
+- Diseñadores: diseño de tableros, personajes, etc 
 
-Entrar al slack de Open Source Weekends y comunicar intención de ayuda, ya veremos como nos apañamos a partir de ahí.
+## Demo
+
+No disponible.
+
+## Ejecución
+
+```
+$ cd board
+$ yarn install
+$ yarn start
+```
+
+## Estado del proyecto.
+
+Se está construyendo el tablero.
+
+### Cómo contribuir en el proyecto
+
+**Más informacion en [CONTRIBUTING.md](CONTRIBUTING.md)**

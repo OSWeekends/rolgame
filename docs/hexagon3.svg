@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200">
+  <g style="font-family: Arial, sans-serif" transform="translate(100,100)">
+    <polygon points="86.6,50 0,100 -86.6,50 -86.6,-50 0,-100 86.6,-50" fill="#b62" />
+    <polygon points="86.6,50 0,100 -86.6,50 -86.6,-50 0,-100 86.6,-50" fill="#a51" transform="translate(173.2,0)" />
+    <line x1="0" y1="0" x2="173.2" y2="0" stroke-width="2" stroke="#fa8" />
+  </g>
+</svg>

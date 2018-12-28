@@ -1,0 +1,28 @@
+  <svg version="1.1" width="300" height="300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g transform="translate(50 50)">
+      <line x1="0" y1="0" x2="0" y2="180" stroke="rgb(0,255,0)" stroke-width="2"/>
+      <line x1="0" y1="0" x2="180" y2="0" stroke="rgb(0,255,0)" stroke-width="2"/>
+    
+      <text x="0" y="195" fill="rgb(0,255,0)">y</text>
+      <text x="195" y="0" fill="rgb(0,255,0)">x</text>
+    </g>
+    <g style="font-family: Arial, sans-serif" transform="translate(150 150)">
+      <polygon points="86.6,50 0,100 -86.6,50 -86.6,-50 0,-100 86.6,-50" stroke="#888" fill="#bbb" />
+      <polygon points="0,0 86.6,0 86.6,50" stroke="#555" fill="#777" />
+
+      <line x1="0" y1="0" x2="0" y2="120" stroke="rgb(255,0,0)" stroke-width="2"/>
+      <line x1="0" y1="0" x2="120" y2="0" stroke="rgb(255,0,0)" stroke-width="2"/>
+
+      <text x="95" y="60">6</text>
+      <text x="10" y="110">5</text>
+      <text x="-95" y="60">4</text>
+      <text x="-95" y="-60">3</text>
+      <text x="10" y="-110">2</text>
+      <text x="95" y="-60">1</text>
+
+      <text x="0" y="135" fill="rgb(255,0,0)">y'</text>
+      <text x="135" y="0" fill="rgb(255,0,0)">x'</text>
+
+      <text x="25" y="15" fill="white">30º</text>
+    </g>
+  </svg>

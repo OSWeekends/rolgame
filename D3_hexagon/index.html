@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf-8>
+		<title>D3 Hexagon</title>
+		<style>
+			body { margin: 0; }
+			canvas { width: 100%; height: 100% }
+		</style>
+	</head>
+	<body>
+            <script src="https://d3js.org/d3.v5.min.js"></script>
+
+            <script>
+                //colores
+                var citrus = "#FFB025"  //relleno
+                var ultraviolet = "#5F4B8B" //borde
+
+                //Create container
+                var svgContainer = d3.select("body") 
+                        .append("svg")
+                        .attr("width", 1000)
+                        .attr("height", 1000);
+                
+                //FUNCION QUE CREA UNA GRID DE HEXAGONOS
+                //Ver https://www.redblobgames.com/grids/hexagons/ secciones "Geometry" y "Coordinate Systems"
+                //El hexagono está girado respecto al dibujo explicativo de distancias de la grid
+                //Argumentos:
+                //rows es el numero de filas de hexagonos, avanzan hacia la derecha
+                //columns es el numero de columnas de hexagonos, avanzan hacia abajo
+                //starterHexagonCenterX es la coordenada X del centro del primer hexagono
+                //starterHexagonCenterY es la coordenada Y del centro del primer hexagono
+                //circumradius es la distancia de centro a cada vertice en todos los hexagonos
+                function createHexagonGrid(rows, columns, starterHexagonCenterX, starterHexagonCenterY, circumradius){
+                    //Distancias de separación en X e Y
+                    var offsetX = circumradius * 3;
+                    var offsetY = circumradius * Math.sqrt(3);
+                    
+                    for (i = 0; i < rows/2; ++i){
+                        for (j = 0; j < columns; ++j){
+                            createHexagon(
+                                (starterHexagonCenterX + (i * offsetX)), 
+                                (starterHexagonCenterY + (j * offsetY)), 
+                                circumradius);
+                            
+                            createHexagon(
+                                (starterHexagonCenterX + (i * offsetX) + (offsetX/2)), 
+                                (starterHexagonCenterY + (j * offsetY) + (offsetY/2)), 
+                                circumradius);
+                        }
+                    }
+                }
+
+                //FUNCION QUE CREA UN HEXAGONO
+                //Argumentos:
+                //hexagonCenterX es la coordenada X del centro del hexagono
+                //hexagonCenterY es la coordenada Y del centro del hexagono
+                //circumradius es la distancia de centro a cada vertice
+                function createHexagon (hexagonCenterX, hexagonCenterY, circumradius) {
+                    //base de algoritmo es este hexagono en D3 de http://jsfiddle.net/LJuRp/
+                    //refactorizado para poder seguir las explicaciones de
+                    //https://www.redblobgames.com/grids/hexagons/ seccion "Geometry"
+
+                    //TODO implementacion de borde plano o puntiagudo: de momento borde plano
+
+                    //Ver formulas en https://www.redblobgames.com/grids/hexagons/ seccion "Geometry"
+                    var hexagonWidth = circumradius * 2;    
+                    var hexagonHeight = circumradius * Math.sqrt(3);
+
+                    //Calculo de la mitad de la anchura y altura
+                    //Este paso intermedio es innecesario pero está incluido para que se entienda mejor
+                    var halfHexagonWidth = hexagonWidth / 2;
+                    var halfHexagonHeight = hexagonHeight / 2;
+
+                    var hexagonVertex = [
+                                        [halfHexagonWidth + hexagonCenterX, 0 + hexagonCenterY], 
+                                        [halfHexagonWidth/2 + hexagonCenterX, halfHexagonHeight + hexagonCenterY], 
+                                        [-halfHexagonWidth/2 + hexagonCenterX, halfHexagonHeight + hexagonCenterY], 
+                                        [-halfHexagonWidth + hexagonCenterX, 0 + hexagonCenterY],    
+                                        [-halfHexagonWidth/2 + hexagonCenterX, -halfHexagonHeight + hexagonCenterY], 
+                                        [halfHexagonWidth/2 + hexagonCenterX, -halfHexagonHeight + hexagonCenterY],
+                                        [halfHexagonWidth + hexagonCenterX, 0 + hexagonCenterY]    //el ultimo vertice repite el primero para cerrar el poligono
+                                        ];
+
+                    
+
+                    //var enterElements = svgContainer.selectAll("path.area") //draw elements
+                    svgContainer.selectAll("path.area") //draw elements
+                        .data([hexagonVertex]).enter().append("path")
+                        .style("fill", citrus)
+                        .style("stroke", ultraviolet)
+                        .attr("d", d3.line());
+                }
+
+                createHexagon(200, 100, 50);
+                createHexagonGrid(10, 10, 200, 400, 25);
+            </script>
+	</body>
+</html>

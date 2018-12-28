@@ -1,33 +1,27 @@
 # rolgame
 
-Desarrollo web para la creacion de un juego de rol
+Proyecto que pretende crear una herramienta para jugar al rol.
 
 ## Equipo
- - [ Jose ](https://github.com/Josheriff) (Leader)
- - [ Luis ](https://github.com/luisddm) (contributor)
- - [ Teresa ](https://github.com/teresamadruga) (contributor)
+- [ Jose ](https://github.com/Josheriff) (Leader)
+- [ Luis ](https://github.com/luisddm) (contributor)
+- [ Teresa ](https://github.com/teresamadruga) (contributor)
+
+Para participar, entrar al slack de Open Source Weekends o asistir a las reuniones mensuales. El avance del proyecto se discutirá en ambos medios entre todos los interesados y con la intención principal de aprender nuevas tecnologías o maneras de hacer las cosas. Avanzar a buen ritmo y obtener un producto usable son objetivos deseables pero secundarios.
 
 ### Necesitamos
 
-Necesitamos todo tipo de perfiles!
+Cualquier tipo de perfil es bienvenido.
 
-- Frontenders: Desarrollo de las pantallas e interacciones
-- Backenders: Desarrollo de lógica 
-- Diseñadores: Ayudarnos a que nuestra aplicacion se vea mejor y más usable 
+- Frontenders: desarrollo de las pantallas e interacciones
+- Backenders: desarrollo de la persistencia 
+- Diseñadores: diseño de tableros, personajes, etc 
 
 ## Demo
 
-No tenemos demo disponible por el momento
+No disponible.
 
-## Tecnología utilizada
-
-d3
-
-## Cómo contribuir en el proyecto
-
-**Más informacion en [CONTRIBUTING.md](CONTRIBUTING.md)**
-
-## ¿Cómo usarlo?.
+## Ejecución
 
 ```
 $ cd board
@@ -37,4 +31,8 @@ $ yarn start
 
 ## Estado del proyecto.
 
-Desarrollando el tablero
+Se está construyendo el tablero.
+
+### Cómo contribuir en el proyecto
+
+**Más informacion en [CONTRIBUTING.md](CONTRIBUTING.md)**
